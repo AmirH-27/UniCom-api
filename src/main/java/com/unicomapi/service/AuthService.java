@@ -4,7 +4,7 @@ import com.unicomapi.config.JwtService;
 import com.unicomapi.auth.AuthenticationRequest;
 import com.unicomapi.auth.AuthenticationResponse;
 import com.unicomapi.auth.RegisterRequest;
-import com.unicomapi.model.Role;
+import com.unicomapi.model.enumuration.Role;
 import com.unicomapi.model.User;
 import com.unicomapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

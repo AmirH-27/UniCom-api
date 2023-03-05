@@ -1,4 +1,5 @@
 package com.unicomapi.model;
+import com.unicomapi.model.enumuration.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
