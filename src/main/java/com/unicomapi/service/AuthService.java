@@ -1,9 +1,9 @@
 package com.unicomapi.service;
 
 import com.unicomapi.config.JwtService;
-import com.unicomapi.Auth.AuthenticationRequest;
-import com.unicomapi.Auth.AuthenticationResponse;
-import com.unicomapi.Auth.RegisterRequest;
+import com.unicomapi.auth.AuthenticationRequest;
+import com.unicomapi.auth.AuthenticationResponse;
+import com.unicomapi.auth.RegisterRequest;
 import com.unicomapi.model.Role;
 import com.unicomapi.model.User;
 import com.unicomapi.repository.UserRepository;

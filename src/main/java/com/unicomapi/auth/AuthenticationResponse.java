@@ -1,4 +1,4 @@
-package com.unicomapi.Auth;
+package com.unicomapi.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class RegisterRequest {
-    private String username;
-    private String password;
+public class AuthenticationResponse {
+    private String authenticationToken;
     private String email;
 }
